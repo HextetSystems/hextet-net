@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #333333;
+  color: #bbeebb;
+  font-family: 'Fira Mono', monospace;
+}
+
+.dialog {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+.dialog strong {
+  line-height: 1.5em;
+  font-size: 3.4em;
+}  
+
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+
+.centered {
+  float:none;
+  margin:0 auto;
+}
+
+.dialog pre {
+  font-size: 0.9em;
+  text-align: left;
+  color: #aaffaa;
+}
