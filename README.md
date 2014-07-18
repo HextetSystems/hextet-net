@@ -10,6 +10,7 @@ nginx configuration
 map $http_user_agent $myindex {
 	default /index.html;
 	~curl /cmdline.html;
+	~Wget /cmdline.html;
 }
 
 # Redirect everything to the main site.
