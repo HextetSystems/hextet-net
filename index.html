@@ -17,13 +17,14 @@
       width: 100%;
       padding: 0;
       margin: 0;
-      background-color: #333333;
-      color: #bbeebb;
+      background-color: #00628B;
+      color: #E6E6DC;
       font-family: 'Fira Mono', monospace;
     }
 
     .dialog {
       margin: 0 auto;
+      width: 45%;
       text-align: center;
       line-height: 1.5em;
       font-size: 0.9em;
@@ -34,24 +35,28 @@
       font-size: 3.4em;
     }  
 
-    .container-fluid{
-      height:100%;
-      display:table;
+    .container-fluid {
+      height: 100%;
+      display: table;
       width: 100%;
       padding: 0;
     }
 
-    .row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+    .row-fluid {
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+    }
 
     .centered {
-      float:none;
+      float: none;
       margin:0 auto;
     }
 
     .dialog pre {
       font-size: 0.9em;
       text-align: left;
-      color: #aaffaa;
+      color: #E6E6DC;
     }
   </style>
 </head>
@@ -65,14 +70,15 @@
           Winnipeg, MB
           <p>
             <pre>
-http GET http://hextet.net/
+curl -i http://hextet.net/
 
 HTTP/1.1 200 OK
-Server: nginx/1.6.0
-Date: Sun, 03 Aug 2014 03:31:42 GMT
-Content-Type: text/html
+Server: nginx/1.6.2
+Date: Thu, 30 Oct 2014 03:19:10 GMT
+Content-Type: text/html; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
+Vary: Accept-Encoding
 
 Hextet Systems
 Winnipeg, MB
